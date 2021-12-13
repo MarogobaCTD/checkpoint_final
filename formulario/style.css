@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&family=Roboto:wght@300;400;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: azure;
+}
+
+
+header{
+
+    position: fixed;
+    width: 100%;
+    background-color: #363636;
+    font-size: 1rem;
+    z-index: 30;
+    margin-top: 10px;
+
+}
+
+main{
+    width: 600px;
+}
+
+.modal-img{
+    width: 200px;
+    text-align: center;
+
+}
+
+.list-header {
+    position: fixed;
+    right: 50px;
+    display: flex;
+}
+
+.img-header{
+    width: 150px;
+}
+
+.nav-link:hover {
+    color: red !important;
+  }
+
+.nav-link {
+    color: #ffffff !important;
+    background-color: #363636;
+}
+
+form {
+    position: relative;
+    /* left: 400px; */
+    top: 100px;
+    display: flex;
+
+}
+
+fieldset {
+    /* border: solid 1px;  */
+    background-color: azure;
+    width: 100%; 
+}
+
+.main-content {
+    padding: 30px;
+}
+
+.g-3 {
+    /* width: 618px; */
+
+}
+.col-12 {
+    /* width: 600px; */
+
+}
+
+.col-121 {
+    margin: 20px;
+    position: relative;
+    left: 300px;
+}
+
+.col-121 button {
+    width:  150px;
+    margin-bottom: 100px;
+}
+
+footer {
+
+    height: 100%;
+    background: #171717;
+    /* display: flex; */
+    /* gap: 200px; */
+    /* justify-content: center; */
+    padding-top: 30px;
+    text-align: center;
+
+}
+
+
+.i1 {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    /* line-height: 28px; */
+}
+
+.i1 h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.i1 h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 16px;
+
+    color: #ffffffbf;
+}
+
+.main-footer a img {
+    height: 24px;
+    width: 24px;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+
+.main-footer a img:hover{
+    opacity: 1;
+}
+
+footer .col-13 h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 16px;
+    color: #ffffffbf;
+} 
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    padding: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;    
+    line-height: 28px;
+    color: #ffffff80;
+    text-align: center;
+}
+
+@media (max-width: 375px) {
+    body {
+        background-color:azure;
+        height: 100%;
+    }
+
+    form {
+        width: 300px;
+        position: relative;
+        left:30px;
+        top: 100px;
+    }
+
+
+}
